@@ -1,5 +1,5 @@
 ---
-title: "Fast and Exact Root Parity for Continuous Collision Detection"
+title: "Time of Impact Dataset for Continuous Collision Detection and a Scalable Conservative Algorithm"
 authors:
 - David Belgrod
 - admin
