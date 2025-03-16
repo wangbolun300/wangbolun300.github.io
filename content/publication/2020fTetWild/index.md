@@ -1,5 +1,5 @@
 ---
-title: "Fast and Exact Root Parity for Continuous Collision Detection"
+title: "Fast Tetrahedral Meshing in the Wild"
 authors:
 - Yixin Hu
 - Teseo Schneider
