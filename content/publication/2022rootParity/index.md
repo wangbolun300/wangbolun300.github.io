@@ -77,4 +77,5 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 {{% /callout %}}
 
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
-此外，
+Besides, Jos Stam (Autodesk’s resident Principal Scientist, Nvidia's Senior Researcher, recipient of the SIGGRAPH Computer Graphics Achievement Award, and winner of 3 Oscar prizes) gave very high comments on our work! You can find the details [here] (https://www.bilibili.com/video/BV15JdMYtEMp/?vd_source=ea032a24810215eccf5ba6fe24f50cf1).
+此外，Autodesk首席科学家、Nvidia高级研究员、SIGGRAPH终身成就奖获得者、三座奥斯卡奖杯获得者Jos Stam对我们的工作进行高度评价！详情请参见[以下链接](https://www.bilibili.com/video/BV15JdMYtEMp/?vd_source=ea032a24810215eccf5ba6fe24f50cf1)。
