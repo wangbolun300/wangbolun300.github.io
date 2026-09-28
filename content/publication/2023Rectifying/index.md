@@ -26,10 +26,8 @@ publication_short: ""
 abstract: Straight flat strips of inextensible material can be bent into curved strips aligned with arbitrary space curves. The large shape variety of these so-called rectifying strips makes them candidates for shape modeling, especially in applications such as architecture where simple elements are preferred for the fabrication of complex shapes. In this paper, we provide computational tools for the design of shapes from rectifying strips. They can form various patterns and fulfill constraints which are required for specific applications such as gridshells or shading systems. The methodology is based on discrete models of rectifying strips, a discrete level-set formulation and optimization-based constrained mesh design and editing. We also analyse the geometry at nodes and present remarkable quadrilateral arrangements of rectifying strips with torsion-free nodes.
 
 # Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags:
-- Source Themes
+tags: []
 featured: true
 
 # links:
@@ -47,7 +45,7 @@ url_video: 'https://www.bilibili.com/video/BV13v46exEYV/?vd_source=ea032a2481021
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -65,13 +63,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-<!-- {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

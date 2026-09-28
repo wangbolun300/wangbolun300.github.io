@@ -28,10 +28,8 @@ publication_short: ""
 abstract: We introduce a new method to interpolate scattered 3D data points with a single B-spline surface patch which is globally smooth. Given a set of scattered 3D data points and their corresponding parametrization, our method first constructs a set α of B-spline bases using a weighted strategy, and inserts knots to the knot vectors based on α. Then, the knot insertion procedure is iterated until a set β of B-spline bases exists, which indicates the existence of the interpolation surface. Finally, by applying the fairing energy minimizing with interpolation constraints, a globally smooth B-spline surface which interpolates the data points can be produced. Experimental results demonstrate that the generated B-spline surfaces often have fewer control points than those of traditional methods, while keeping the scattered data points interpolated accurately. 
 
 # Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags:
-- Source Themes
+tags: []
 featured: true
 
 # links:
@@ -49,7 +47,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -67,13 +65,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-<!-- {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

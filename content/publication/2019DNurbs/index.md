@@ -29,10 +29,8 @@ publication_short: ""
 abstract: Airborne light detection and ranging (LiDAR) technology is becoming the primary method for generating high-resolution digital terrain models (DTMs), which is essential for commercial and scientific uses. In order to generate DTMs, non-ground features as buildings, vehicles, and vegetation must be recognized and distinguished from the LiDAR point cloud. However, various degrees of errors may accumulate in the separated filtering and modeling processes. In this paper, a novel physical process driven DTM generating method for airborne LiDAR measurement is proposed, which combines the point cloud classification and surface fitting process simultaneously. Actually, the physical dynamic process is integrated with the common non-uniform rational b-splines (NURBS) model under the corresponding parameter mediation. The experimental results show that the proposed method is efficacious in reducing errors …
 
 # Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags:
-- Source Themes
+tags: []
 featured: false
 
 # links:
@@ -50,7 +48,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -68,13 +66,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-<!-- {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

@@ -1,52 +1,37 @@
-# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
+# Bolun Wang's academic homepage
 
-[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/)
+Personal academic website built with Hugo and the Hugo Blox Academic CV theme.
 
-The Hugo **Academic CV Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
+## Structure
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/GetResearchDev)
+- `content/_index.md`: homepage biography, featured publications, recent publications, and talks.
+- `content/authors/admin/_index.md`: biography, affiliations, education, and profile links.
+- `content/publication/<paper>/`: one page bundle per paper, containing `index.md`, optional `cite.bib`, and a `featured` image.
+- `content/event/` and `content/teaching/`: talks and courses.
+- `config/_default/`: site URL, appearance, navigation, and Hugo modules.
+- `assets/`, `static/`, and `layouts/`: assets, downloadable files, and template overrides.
+- `.github/workflows/publish.yaml`: build and deployment to GitHub Pages on pushes to `main`.
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, Hugo Blox Builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+## Preview
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+Install Hugo **Extended 0.136.5** (the version used by GitHub Pages) and Go, then run:
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://hugoblox.com/creators/).
+```sh
+hugo server
+```
 
-The integrated [**Hugo Blox Builder**](https://hugoblox.com) and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+For a production build:
 
-- 👉 [**Get Started**](https://hugoblox.com/templates/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 💡 [Suggest an improvement](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+```sh
+hugo --minify
+```
 
-## We ask you, humbly, to support this open source movement
+The generated site is in `public/`. The GitHub Pages workflow also generates the Pagefind search index; to test search locally, install Node.js and run `npx pagefind --site public` after building.
 
-Today we ask you to defend the open source independence of the Hugo Blox Builder and themes 🐧
+## Add a publication
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+Create `content/publication/<paper>/index.md` with the title, authors, publication date, venue, and links. Use `admin` for Bolun Wang to link the author profile. Set `featured: true` to include the paper in the homepage's Featured Publications section. Add `cite.bib` for the citation download and a `featured.png` or `featured.jpg` for the card image.
 
-### [❤️ Click here to become a Sponsor, unlocking awesome perks such as _exclusive academic templates and blocks_](https://hugoblox.com/sponsor/)
+The isotropic initialization paper uses the journal publication date (July 9, 2026), with metadata verified against [arXiv](https://arxiv.org/abs/2506.01726) and the [publisher](https://doi.org/10.1016/j.cagd.2026.102593). Its image is Figure 1 of the paper, credited in the page metadata.
 
-<!--
-<p align="center"><a href="https://hugoblox.com/templates/" target="_blank" rel="noopener"><img src="https://hugoblox.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Hugo Blox Builder"></a></p>
--->
-
-## Demo image credits
-
-- [Unsplash](https://unsplash.com)
-
-## Latest news
-
-<!--START_SECTION:news-->
-
-- [Easily make an academic CV website to get more cites and grow your audience 🚀](https://hugoblox.com/blog/easily-make-academic-website/)
-- [What&#39;s new in v5.2?](https://hugoblox.com/blog/whats-new-in-v5.2/)
-- [What&#39;s new in v5.1?](https://hugoblox.com/blog/whats-new-in-v5.1/)
-- [Version 5.0 (February 2021)](https://hugoblox.com/blog/version-5.0-february-2021/)
-- [Version 5.0 Beta 3 (February 2021)](https://hugoblox.com/blog/version-5.0-beta-3-february-2021/)
-<!--END_SECTION:news-->
+The starter blog posts and sample software projects are kept as drafts. They do not appear in a normal production build; use `hugo server --buildDrafts` when editing them.

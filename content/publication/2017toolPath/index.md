@@ -29,10 +29,8 @@ publication_short: ""
 abstract: For three-axis sculptured surface machining, a tool path generation method based on the feed directions of maximum machining strip width is proposed. We use a B-Spline stream function to reconstruct the vector field of feed directions, and give the initial tool path by one of the iso-lines of the stream function. The integrated tool paths are generated using traditional iso-scallop method based on the previous obtained initial path. Numerical results show that the tool paths match the optimal vector field in the least square sense. Further a total shorter tool path length can be obtained.
 
 # Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags:
-- Source Themes
+tags: []
 featured: false
 
 # links:
@@ -50,7 +48,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -68,13 +66,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-<!-- {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

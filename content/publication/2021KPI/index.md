@@ -29,10 +29,8 @@ publication_short: ""
 abstract: B-splines are widely used in the fields of reverse engineering and computer-aided design, due to their superior properties. Traditional B-spline surface interpolation algorithms usually assume regularity of the data distribution. In this paper, we introduce a novel B-spline surface interpolation algorithm - KPI, which can interpolate sparsely and non-uniformly distributed data points. As a two-stage algorithm, our method generates the dataset out of the sparse data using Kriging, and uses the proposed KPI (Key-Point Interpolation) method to generate the control points. Our algorithm can be extended to higher dimensional data interpolation, such as reconstructing dynamic surfaces. We apply the method to interpolating the temperature of Shanxi Province. The generated dynamic surface accurately interpolates the temperature data provided by the weather stations, and the preserved dynamic characteristics can be useful …
 
 # Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags:
-- Source Themes
+tags: []
 featured: false
 
 # links:
@@ -50,7 +48,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -68,13 +66,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-<!-- {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

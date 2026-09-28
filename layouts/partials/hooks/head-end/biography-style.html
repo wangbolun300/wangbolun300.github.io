@@ -1,0 +1,12 @@
+<style>
+  .biography-with-work { width: 100%; max-width: 1280px; margin-inline: auto; }
+  .biography-with-work .biography-profile { width: 240px; max-width: 100%; }
+  .biography-with-work .biography-main { min-width: 0; }
+  .biography-with-work .bio-text { max-width: none; }
+  .biography-with-work .prose { max-width: none; }
+  .biography-details { grid-template-columns: minmax(0, 1fr); }
+  .biography-details > div { min-width: 0; overflow-wrap: break-word; }
+  @media (min-width: 1024px) {
+    .biography-details { grid-template-columns: 0.9fr 1.1fr 1.2fr; gap: 1.5rem; }
+  }
+</style>

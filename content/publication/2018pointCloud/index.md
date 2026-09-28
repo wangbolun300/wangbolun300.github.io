@@ -29,10 +29,8 @@ publication_short: ""
 abstract: This paper proposes a coarse-to-fine registration algorithm for 3D point cloud. A novel feature points extraction method is presented, following an integrated local feature descriptor including Gaussian curvature, average curvature and point density for each point, through which we can achieve the coarse registration. Then, the ICP method is employed to refine the registration results with a good initial guess. Experiments including different simulated data sets demonstrate the applicability of the proposed methods. Meanwhile, the proposed coarse-to-fine registration algorithm is demonstrated to be robust to common nuisances, including noise and varying point cloud resolutions, and can achieve high accuracy and computation efficiency.
 
 # Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags:
-- Source Themes
+tags: []
 featured: false
 
 # links:
@@ -50,7 +48,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -68,13 +66,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-<!-- {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

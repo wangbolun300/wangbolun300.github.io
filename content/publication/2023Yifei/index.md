@@ -30,10 +30,8 @@ publication_short: ""
 abstract: Feed rate scheduling is a critical step in computer numerical control machining, as it has a close relationship with machining time and surface quality. It has now become a hot issue in both industry and academia. In this article, we present a novel and complete S-shape-based feed rate scheduling method for three-axis non-uniform rational B-spline (NURBS) tool paths, which can reduce high chord errors and round-off errors, and generate continuous velocity, acceleration, and jerk profile. The proposed feed rate scheduling method consists of three modules - A bidirectional scanning module, a velocity scheduling module, and a round-off error elimination module. The bidirectional scanning module aims to guarantee the continuity of the feed rate at the junctions between successive NURBS blocks, where the chord error, tangential acceleration, and tangential jerk limitations are considered. After the NURBS blocks have …
 
 # Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags:
-- Source Themes
+tags: []
 featured: false
 
 # links:
@@ -51,7 +49,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -69,13 +67,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-<!-- {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
