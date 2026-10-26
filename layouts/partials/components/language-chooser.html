@@ -1,0 +1,4 @@
+{{ $page := .page }}
+{{ range $page.Translations }}
+<a class="language-switch inline-flex items-center px-3 py-2 font-semibold" href="{{ .RelPermalink }}" lang="{{ .Language.LanguageCode }}" hreflang="{{ .Language.LanguageCode }}" aria-label="{{ if eq .Lang "zh" }}切换到中文版{{ else }}Switch to English{{ end }}">{{ .Language.LanguageName }}</a>
+{{ end }}

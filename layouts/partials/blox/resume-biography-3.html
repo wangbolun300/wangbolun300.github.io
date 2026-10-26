@@ -154,7 +154,7 @@
 
     {{ with $person.work }}
     <div>
-      <div class="section-subheading mb-3">Work Experience</div>
+      <div class="section-subheading mb-3">{{ i18n "experience" | default "Work Experience" }}</div>
       <ul class="space-y-3">
         {{ range . }}
         <li>

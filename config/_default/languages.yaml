@@ -5,6 +5,8 @@
 # Default language
 en:
   languageCode: en-us
+  languageName: English
+  weight: 1
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
@@ -20,3 +22,35 @@ en:
 #      - name: 传
 #        url: '#about'
 #        weight: 1
+zh:
+  languageCode: zh-CN
+  languageName: 中文
+  weight: 2
+  title: 王博伦（Bolun Wang）｜中国科学院自动化研究所
+  params:
+    marketing:
+      seo:
+        description: 王博伦（Bolun Wang），中国科学院自动化研究所助理研究员，研究方向包括计算机图形学、计算机辅助设计、几何建模和离散微分几何。个人主页提供论文、教育背景、工作经历和联系方式。
+    header:
+      navbar:
+        logo:
+          text: 王博伦
+    locale:
+      date_format: '2006年1月2日'
+    footer:
+      copyright:
+        notice: '© {year} 王博伦（Bolun Wang）。本网站内容采用 {license} 许可。'
+  menus:
+    main:
+      - name: 简介
+        url: /zh/
+        weight: 10
+      - name: 论文
+        url: /zh/#papers
+        weight: 11
+      - name: 学术报告
+        url: /zh/#talks
+        weight: 12
+      - name: 教学
+        url: /zh/teaching/
+        weight: 40

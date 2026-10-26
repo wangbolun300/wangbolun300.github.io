@@ -1,0 +1,4 @@
+{{ if .IsHome }}
+{{ $identity := dict "@context" "https://schema.org" "@type" "Person" "@id" "https://wangbolun300.github.io/#person" "name" "王博伦" "alternateName" "Bolun Wang" "url" "https://wangbolun300.github.io/zh/" "jobTitle" "助理研究员" "worksFor" (dict "@type" "Organization" "name" "中国科学院自动化研究所" "alternateName" "Institute of Automation, Chinese Academy of Sciences") "sameAs" (slice "https://orcid.org/0000-0002-2027-870X" "https://scholar.google.com/citations?user=1yqFfVoAAAAJ" "https://github.com/wangbolun300") }}
+<script type="application/ld+json">{{ $identity | jsonify | safeJS }}</script>
+{{ end }}
