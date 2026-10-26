@@ -29,8 +29,8 @@ education:
     institution: Beihang University
     date_start: 2016-09-01
     date_end: 2022-01-15
-  - area: Visiting Student in Computer Science
-    institution: New York University
+  - area: Visiting Student, Department of Computer Science
+    institution: Courant Institute of Mathematical Sciences, New York University
     date_start: 2019-02-06
     date_end: 2020-09-17
   - area: BSc in Mathematics
@@ -55,6 +55,6 @@ work:
 
 I am Bolun Wang (王博伦). Since 2026, I have been an assistant researcher at the Institute of Automation, Chinese Academy of Sciences. Previously, I was a postdoctoral researcher at RWTH Aachen University, Germany, from 2024 to 2026, and at the Visual Computing Center of King Abdullah University of Science and Technology (KAUST) from 2022 to 2024.
 
-I received my PhD in fundamental mathematics from Beihang University in 2022 and my BSc in mathematics from the same university in 2016. From 2019 to 2020, I was a visiting student in computer science at New York University. My research interests include computer graphics, computer-aided design, geometric modeling, and discrete differential geometry.
+I received my PhD in fundamental mathematics from Beihang University in 2022 and my BSc in mathematics from the same university in 2016. From 2019 to 2020, I was a visiting student in the Department of Computer Science at the Courant Institute of Mathematical Sciences, New York University. My research interests include computer graphics, computer-aided design, geometric modeling, and discrete differential geometry.
 
 Contact: [bolun.wang@ia.ac.cn](mailto:bolun.wang@ia.ac.cn).
