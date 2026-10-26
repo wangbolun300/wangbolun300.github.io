@@ -11,4 +11,4 @@ math: false
 #   caption: 'Embed rich media such as videos and LaTeX math'
 ---
 
-2022年秋季学期，我在阿卜杜拉国王科技大学（KAUST）视觉计算中心担任几何处理课程助教，负责批改作业和辅导学生编程。
+2022年秋季学期，我在阿卜杜拉国王科技大学（KAUST）可视计算中心担任几何处理课程助教，负责批改作业和辅导学生编程。
